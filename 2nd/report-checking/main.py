@@ -66,10 +66,6 @@ def get_bad_number_index(numbers: List[int]) -> int:
 
     return -1
 
-
-def num_between_inclusive(a: int, min: int, max: int) -> bool:
-    return a >= min and a <= max
-
 def step_size_okay(prev_number: int, number: int) -> bool:
     STEP_MIN = 1
     STEP_MAX = 3
